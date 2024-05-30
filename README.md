@@ -65,7 +65,7 @@ The relevant columns are then selected and preprocessed, including handling null
    ```
 
 3. **Visualize Correlations**:
-   Use seaborn to visualize the correlation between different variables.
+   Use heatmap to visualize the correlation between different variables.
    
    ```python
    sns.heatmap(ActualData.corr())
